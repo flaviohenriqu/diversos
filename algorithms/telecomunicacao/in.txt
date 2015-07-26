@@ -1,0 +1,6 @@
+5
+Centro 0 0
+Atalaia 4 -8
+Sao_Conrado -5 -7
+Siqueira_Campos -3 0
+Ponto_Novo -3 -3

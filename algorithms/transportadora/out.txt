@@ -1,0 +1,35 @@
+Transporte economico para Petrolina 
+Distancia: 463km 
+Custo: R$40 
+Prazo: 8h
+
+Transporte economico para Maceio 
+Distancia: 734km 
+Custo: R$60 
+Prazo: 12h
+
+Transporte expresso para Sao Paulo 
+Distancia: 2160km 
+Custo: R$8000 
+Prazo: 4h
+
+Transporte expresso para Recife 
+Distancia: 500km 
+Custo: R$2000 
+Prazo: 1h
+
+Transporte economico para Rio de Janeiro 
+Distancia: 1800km 
+Custo: R$150 
+Prazo: 30h
+
+Transporte expresso para Belo Horizonte 
+Distancia: 1545km 
+Custo: R$6000 
+Prazo: 3h
+
+Transporte expresso para Natal 
+Distancia: 931km 
+Custo: R$4000 
+Prazo: 2h
+

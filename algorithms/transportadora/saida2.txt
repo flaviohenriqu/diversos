@@ -1,0 +1,29 @@
+Transporte economico para Viridian
+Distancia: 394km
+Custo: R$35
+Prazo: 7h
+
+Transporte economico para Ilhas Laranja
+Distancia: 1255km
+Custo: R$105
+Prazo: 21h
+
+Transporte expresso para Caverna dos Digletts
+Distancia: 2827km
+Custo: R$12000
+Prazo: 6h
+
+Transporte economico para Lavender
+Distancia: 1228km
+Custo: R$100
+Prazo: 20h
+
+Transporte expresso para Ilhas Laranja
+Distancia: 1255km
+Custo: R$6000
+Prazo: 3h
+
+Transporte expresso para Lavender
+Distancia: 1228km
+Custo: R$4000
+Prazo: 2h

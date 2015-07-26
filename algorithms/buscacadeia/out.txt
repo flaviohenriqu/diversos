@@ -1,0 +1,9 @@
+[ok] 6 resultados nas cadeias 0,2,4,5,7
+[muito] 2 resultados nas cadeias 1,6
+[facil] 2 resultados nas cadeias 3,8
+[certo] 4 resultados nas cadeias 5,7,9
+[errado] 2 resultados nas cadeias 0,4
+[nao] 1 resultado na cadeia 4
+[sim] 1 resultado na cadeia 2
+[23] 9 resultados nas cadeias 1,2,3,6,7,8,10
+[stop] 2 resultados na cadeia 10

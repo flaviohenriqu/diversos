@@ -1,0 +1,18 @@
+10 10
+Pallet 0 0 Viridian Planalto_Indigo 0
+Viridian -217 329 Pallet Vermilion 0
+Cerulean 616 670 Vermilion Lavender 0
+Vermilion -407 43 Cerulean Lavender 0
+Lavender -98 424 Cerulean Vermilion Celadon 0
+Celadon -88 134 Lavender Safari_Zone 0
+Safari_Zone 373 -434 Celadon Caverna_dos_Digletts 0
+Caverna_dos_Digletts 459 137 Safari_Zone 0
+Planalto_Indigo -228 -366 Pallet Ilhas_Laranja 0
+Ilhas_Laranja 326 244 Planalto_Indigo 0
+6
+ECO Viridian
+ECO Ilhas_Laranja
+EXP Caverna_dos_Digletts
+ECO Lavender
+EXP Ilhas_Laranja
+EXP Lavender

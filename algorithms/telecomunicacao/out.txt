@@ -1,0 +1,7 @@
+[Centro] Atalaia, Siqueira Campos
+[Atalaia] Centro
+[Sao Conrado] Ponto Novo
+[Siqueira Campos] Centro, Ponto Novo
+[Ponto Novo] Sao Conrado, Siqueira Campos
+Prazo: 190 dias
+Custo: R$665000

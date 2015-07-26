@@ -1,0 +1,19 @@
+10 12
+Aracaju 0 0 Belo_Horizonte Petrolina Recife Rio_de_Janeiro Salvador 0
+Belo_Horizonte -800 -1322 Aracaju Rio_de_Janeiro Sao_Paulo 0
+Joao_Pessoa 310 532 Natal Recife 0
+Maceio 160 213 Recife 0
+Natal 200 810 Joao_Pessoa 0
+Petrolina -400 233 Aracaju 0
+Recife 300 400 Aracaju Maceio Joao_Pessoa 0
+Rio_de_Janeiro -300 -1775 Aracaju Belo_Horizonte Sao_Paulo 0
+Salvador -150 -290 Aracaju Sao_Paulo 0
+Sao_Paulo -1000 -1915 Belo_Horizonte Rio_de_Janeiro Salvador 0
+7
+ECO Petrolina
+ECO Maceio
+EXP Sao_Paulo
+EXP Recife
+ECO Rio_de_Janeiro
+EXP Belo_Horizonte
+EXP Natal

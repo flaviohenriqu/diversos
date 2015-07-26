@@ -1,0 +1,9 @@
+5 5
+Aracaju 0 0 Recife Rio_de_Janeiro Salvador 0
+Recife 300 400 Aracaju 0
+Rio_de_Janeiro -300 -1775 Aracaju Sao_Paulo 0
+Salvador -150 -290 Aracaju Sao_Paulo 0
+Sao_Paulo -1000 -1915 Rio_de_Janeiro Salvador 0
+2
+ECO Sao_Paulo
+EXP Recife
