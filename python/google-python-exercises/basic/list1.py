@@ -20,9 +20,18 @@
 # strings where the string length is 2 or more and the first
 # and last chars of the string are the same.
 # Note: python does not have a ++ operator, but += works.
+
+
 def match_ends(words):
     return len([a for a in words if len(a) >= 2 and a[0] == a[-1]])
 
+
+def match_ends(words):
+    return sum(1 for a in words if len(a) >= 2 and a[0] == a[-1])
+
+
+def match_ends(words):
+    return len(filter(lambda a: len(a) >= 2 and a[0] == a[-1], words))
 
 # B. front_x
 # Given a list of strings, return a list with the strings
@@ -32,9 +41,23 @@ def match_ends(words):
 # Hint: this can be done by making 2 lists and sorting each of them
 # before combining them.
 def front_x(words):
-    return sorted(a for a in words if a[0] is 'x') + sorted(b for b in words if b[0] is not 'x')
+    return sorted(a for a in words if a.startswith('x')) + sorted(b for b in words if not b.startswith('x'))
 
 
+def front_x(words):
+    with_x, without_x = [], []
+
+    for w in words:
+        if w.startswith('x'):
+            with_x.append(w)
+        else:
+            without_x.append(w)
+
+    with_x.sort()
+    without_x.sort()
+    with_x.extend(without_x)
+
+    return with_x
 
 # C. sort_last
 # Given a list of non-empty tuples, return a list sorted in increasing
@@ -43,7 +66,7 @@ def front_x(words):
 # [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
 # Hint: use a custom key= function to extract the last element form each tuple.
 def sort_last(tuples):
-    return sorted(tuples, key=lambda a: a[-1])
+    return sorted(tuples, key=lambda t: t[-1])
 
 
 # Simple provided test() function used in main() to print

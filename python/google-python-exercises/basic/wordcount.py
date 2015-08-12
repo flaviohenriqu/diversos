@@ -36,8 +36,11 @@ Optional: define a helper function to avoid code duplication inside
 print_words() and print_top().
 
 """
-
+import argparse
+from collections import Counter
+import re
 import sys
+import tkinter as tk
 
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
@@ -49,20 +52,43 @@ import sys
 
 # This basic command line argument parsing code is provided and
 # calls the print_words() and print_top() functions which you must define.
-def main():
-  if len(sys.argv) != 3:
-    print 'usage: ./wordcount.py {--count | --topcount} file'
-    sys.exit(1)
 
-  option = sys.argv[1]
-  filename = sys.argv[2]
-  if option == '--count':
-    print_words(filename)
-  elif option == '--topcount':
-    print_top(filename)
-  else:
-    print 'unknown option: ' + option
-    sys.exit(1)
+
+def __load_words(filename):
+    words = re.findall(r"\w+", filename.read().lower())
+    filename.close()
+    return Counter(words)
+
+
+def count_words(filename):
+    dict_words = __load_words(filename)
+    return sorted(dict_words.items())
+
+
+def top_words(filename):
+    dict_words = __load_words(filename)
+    return dict_words.most_common(20)
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Count words')
+    parser.add_argument('--count', action='store_true', help='Count all words')
+    parser.add_argument('--topcount', action='store_true', help='Count 20 most common')
+    parser.add_argument('textfile', type=argparse.FileType(), help='Text file to count.')
+
+    options = parser.parse_args()
+
+    if options.count:
+        for key, val in count_words(options.textfile):
+            print('%s: %s' % (key, val))
+
+    elif options.topcount:
+        for key, val in top_words(options.textfile):
+            print('%s: %s' % (key, val))
+
+    else:
+        print('unknown option: ' + options)
+        sys.exit(1)
 
 if __name__ == '__main__':
-  main()
+    main()
