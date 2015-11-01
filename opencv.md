@@ -73,4 +73,5 @@ An easy way to test if the build was successful, is to use the OpenCV test utili
 ```
 
 You should see something like this:
-![OpenCV test core](http://4.bp.blogspot.com/-F51xkreNrmU/T7VDYUpa8fI/AAAAAAAABdk/fzMCRgtq764/s1600/opencv_test_core.png "OpenCV Test Core")
+![OpenCV test core]
+(http://4.bp.blogspot.com/-F51xkreNrmU/T7VDYUpa8fI/AAAAAAAABdk/fzMCRgtq764/s1600/opencv_test_core.png "OpenCV Test Core")
